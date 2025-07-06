@@ -21,80 +21,82 @@ To analyze global airplane crash data from 1918 to 2022, identify key trends, ca
 •	Survivors: 1,120
 •	Total Crashes: 28,530
 •	Data Dimensions:
-o	Crash causes
-o	Aircraft types
-o	Flight phases
-o	Regions and countries
-o	Monthly trends
+
+## Crash causes
+- Aircraft types
+- Flight phases
+- Regions and countries
+- Monthly trends
 
 ## 🛠 Tools Used
-•	Power BI: Data visualization
-•	Power Query: Data processing and transformation
-•	Microsoft Excel
+-	Power BI: Data visualization
+-	Power Query: Data processing and transformation
+-	Microsoft Excel
 
 Data Source: Aggregated global aviation accident records
 ## 🧹 Data Preparation
 
 ## Data Cleaning:
-o	Removed duplicates
-o	Handled missing values
-o	Standardized date and location formats
-•	Feature Engineering:
-o	Categorized crash causes
-o	Mapped fatalities by aircraft type and flight phase
-o	Aggregated data by region and country
+-	Removed duplicates
+-	Handled missing values
+-	Standardized date and location formats
+-	Feature Engineering:
+-	Categorized crash causes
+-	Mapped fatalities by aircraft type and flight phase
+-	Aggregated data by region and country
+
 •	Transformation:
-o	Structured raw records into analytical tables for effective visualization
+Structured raw records into analytical tables for effective visualization
 
 ## 🗃️ Data Model Summary
 ## 📁 Entities
-•	Crashes: Date, location, cause, phase, aircraft type
-•	Fatalities: Passenger, crew, other
-•	Survivors
-•	Regions & Countries
+-	Crashes: Date, location, cause, phase, aircraft type
+-	Fatalities: Passenger, crew, other
+-	Survivors
+-	Regions & Countries
 
 ## 🔗 Relationships
-•	Each crash links to a specific aircraft, cause, flight phase, and geographic location
-•	Fatalities and survivors are aggregated per crash
+-	Each crash links to a specific aircraft, cause, flight phase, and geographic location
+-	Fatalities and survivors are aggregated per crash
 
 ## 📊 Exploratory Data Analysis
 #✈️ Deadliest Aircraft Types
-•	Douglas C-47 Skytrain (DC-3)
-•	Lockheed C-130 Hercules
-•	Boeing 737-200, Boeing 707, Tupolev TU-154
+-	Douglas C-47 Skytrain (DC-3)
+-	Lockheed C-130 Hercules
+-	Boeing 737-200, Boeing 707, Tupolev TU-154
 → Older aircraft dominate fatality statistics
 
 ![](Dash1.png)
 
 ## ⚠️ Crash Causes
-•	Human Error leads overwhelmingly, far above:
-o	Technical failure
-o	Unknown causes
-o	Terrorism/hijacking
-o	Weather and other causes
+-	Human Error leads overwhelmingly, far above:
+-	Technical failure
+-	Unknown causes
+-	Terrorism/hijacking
+-	Weather and other causes
 
 ## 🛫 Fatalities by Flight Phase
-•	In-Flight, Landing, and Takeoff phases = Most fatal
-•	Minimal fatalities in taxiing and parking
+-	In-Flight, Landing, and Takeoff phases = Most fatal
+-	Minimal fatalities in taxiing and parking
 👥 Fatalities by Role
-•	Passengers: ~66%
-•	Crew Members: ~32%
-•	Others: Remaining proportion
+-	Passengers: ~66%
+-	Crew Members: ~32%
+-	Others: Remaining proportion
 
 ## 🌍 Fatalities by Country
-•	Top 5: USA, Russia, UK, France, Brazil
+-	Top 5: USA, Russia, UK, France, Brazil
 → Reflects high flight volume and varying safety practices
 
 📅 Fatalities by Month
-•	Peaks: February and December
+-	Peaks: February and December
 → Suggests seasonal risk patterns (weather or operational demand)
 
 🗺️ Geographic Distribution
-•	Fatalities are concentrated in North America, Europe, and Russia
-•	Visualized via regional heat maps
+-	Fatalities are concentrated in North America, Europe, and Russia
+-	Visualized via regional heat maps
 
 ## 🚨 Survivor Rate
-•	Survivors are extremely rare
+-	Survivors are extremely rare
 → Indicates the severity of most crashes
 
 ## 💡 Key Insights, Implications, and Impacts
