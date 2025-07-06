@@ -64,7 +64,7 @@ o	Structured raw records into analytical tables for effective visualization
 •	Boeing 737-200, Boeing 707, Tupolev TU-154
 → Older aircraft dominate fatality statistics
 
-![](dash1.png)
+![](Dash1.png)
 
 ## ⚠️ Crash Causes
 •	Human Error leads overwhelmingly, far above:
