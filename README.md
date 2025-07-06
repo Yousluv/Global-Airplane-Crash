@@ -16,11 +16,11 @@
 To analyze global airplane crash data from 1918 to 2022, identify key trends, causes, and patterns in aviation accidents, and deliver actionable insights for improving aviation safety. This analysis supports data-driven decisions by aviation authorities, airlines, and safety organizations.
 
 ## 📂 Dataset Overview
-•	Timeframe: 1918–2022
-•	Total Fatalities: 159,000
-•	Survivors: 1,120
-•	Total Crashes: 28,530
-•	Data Dimensions:
+-	Timeframe: 1918–2022
+-	Total Fatalities: 159,000
+-	Survivors: 1,120
+-	Total Crashes: 28,530
+-	Data Dimensions:
 
 ## Crash causes
 - Aircraft types
@@ -45,7 +45,7 @@ Data Source: Aggregated global aviation accident records
 -	Mapped fatalities by aircraft type and flight phase
 -	Aggregated data by region and country
 
-•	Transformation:
+## Transformation:
 Structured raw records into analytical tables for effective visualization
 
 ## 🗃️ Data Model Summary
@@ -78,6 +78,7 @@ Structured raw records into analytical tables for effective visualization
 ## 🛫 Fatalities by Flight Phase
 -	In-Flight, Landing, and Takeoff phases = Most fatal
 -	Minimal fatalities in taxiing and parking
+
 👥 Fatalities by Role
 -	Passengers: ~66%
 -	Crew Members: ~32%
@@ -85,7 +86,7 @@ Structured raw records into analytical tables for effective visualization
 
 ## 🌍 Fatalities by Country
 -	Top 5: USA, Russia, UK, France, Brazil
-→ Reflects high flight volume and varying safety practices
+- Reflects high flight volume and varying safety practices
 
 📅 Fatalities by Month
 -	Peaks: February and December
@@ -134,14 +135,14 @@ Weather and seasonal travel surges impact safety.
 Airlines and ATC can schedule adaptive risk measures during high-risk months.
 
 ## 🔍 Observations
-•	Extremely low survivor rate across 100+ years of data
-•	Fatalities globally distributed, with higher rates in developed regions
-•	Unknown causes still present in many crash records
-•	Takeoff and landing remain the riskiest flight phases
+-	Extremely low survivor rate across 100+ years of data
+-	Fatalities globally distributed, with higher rates in developed regions
+-	Unknown causes still present in many crash records
+-	Takeoff and landing remain the riskiest flight phases
 
 ## ✅ Recommendations
 1.	Enhance Human Factor Training
-o	Invest in advanced simulation and fatigue awareness programs
+- Invest in advanced simulation and fatigue awareness programs
 2.	Improve Data Collection Standards
 o	Standardize crash investigation and cause classification
 3.	Focus on High-Risk Flight Phases
