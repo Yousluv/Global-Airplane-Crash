@@ -7,9 +7,9 @@
 4.	Data Preparation
 5.	Data Model Summary
 6.	Exploratory Data Analysis
-7.	Key Insights, Implications, and Impacts
-8.	Observations
-9.	Recommendations
+8.	Key Insights, Implications, and Impacts
+9.	Observations
+10.	Recommendations
 
 ## 🎯 Project Objective
 To analyze global airplane crash data from 1918 to 2022, identify key trends, causes, and patterns in aviation accidents, and deliver actionable insights for improving aviation safety. This analysis supports data-driven decisions by aviation authorities, airlines, and safety organizations.
