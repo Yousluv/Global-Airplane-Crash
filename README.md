@@ -7,6 +7,7 @@
 4.	Data Preparation
 5.	Data Model Summary
 6.	Exploratory Data Analysis
+7.	Visualization
 8.	Key Insights, Implications, and Impacts
 9.	Observations
 10.	Recommendations
@@ -62,6 +63,8 @@ o	Structured raw records into analytical tables for effective visualization
 •	Lockheed C-130 Hercules
 •	Boeing 737-200, Boeing 707, Tupolev TU-154
 → Older aircraft dominate fatality statistics
+
+![](dash1.png)
 
 ## ⚠️ Crash Causes
 •	Human Error leads overwhelmingly, far above:
